@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        a:link,
+    a:visited,
+    a:active,
+    a:hover {
+        color: red;
+    }
+       </style>
       <title>About me - Taylor Camacho</title>
+      <link rel="stylesheet" href="style.css">
 </head>
 <body> 
-  <nav>
-      <ul>
-         <li><a href=Index.html>Homepage</a></li>
-         <li><a href=About-me.html>About me</a></li>
-         <li><a href=Contact-me.html>Contact me</a></li> 
-        
+    <nav>
+        <ul>
+            <li id="hom"><a href="index.html">Home page</a></li>
+            <li id="abot"><a href="About-me.html">About me</a></li>
+            <li id="con"><a href="Contact-me.html">Contact me</a></li>        
         </ul>
-
-  </nav>
+ 
+     </nav>
+ 
   
   <main>
 
@@ -26,7 +35,8 @@
         <h2><strong>My Favorite Games</strong></h2>
 
         <!--Unorderd list-->
-    <ul type="circle"> 
+
+    <ul> 
 
           <li>
              <a href="https://www.smashbros.com/en_US/">
@@ -40,10 +50,10 @@
               </a>
         </li>
         <li> 
-            <a href="https://store.epicgames.com/en-US/p/sifu"></a>
-               Sifu
+            <a href="https://store.epicgames.com/en-US/p/sifu">Sifu</a>
+               
             <br>
-            <img src="images/Sifu.jpg" width="300" 
+            <img id="si" src="images/Sifu.jpg" width="300" 
             alt="Ninja">
         </li>
     </ul>
@@ -51,7 +61,7 @@
         <h2><Strong>Hobbies</Strong></h2>
         
         <!--Orderd List-->
-    <ol type="a">
+    <ol>
             <li>Gym</li>
             <li>Video Editing</li>
             <li>Cars</li>

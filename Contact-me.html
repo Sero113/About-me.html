@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    a:link,
+a:visited,
+a:active,
+a:hover {
+    color: red;
+}
+   </style>
     <title>Contact Me - Taylor Camacho</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> 
   <nav>
-
-
     <ul>
-         <li><a href=Index.html>Homepage</a></li>
-         <li><a href=About-me.html>About me</a></li>
-         <li><a href=Contact-me.html>Contact me</a></li> 
-        
+        <li id="hom"><a href="index.html">Home page</a></li>
+        <li id="abot"><a href="About-me.html">About me</a></li>
+        <li id="con"><a href="Contact-me.html">Contact me</a></li>        
     </ul>
 
-  </nav>
+ </nav>
+
 
 
     <main>
 
          <h1> Contact me</h1>
-
-        <p>Contact Form!</p>
+        <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
 
         <ul>
             <li>
         
-                 <img src="images/Instagram-logo-Transparent-BlackPurple.png" alt="Insta" height="15">
+                 <img src="images/Insta.png" alt="Insta" height="15">
                  <a href="https://www.instagram.com/editotesto/">
                     Instagram
                  </a></li>
             <li>
-               <img src="images/GitHub-logo-BlackPurple.png" alt="Github" height="15">
+               <img src="images/Git-logo.png" alt="Github" height="15">
                <a href=https://github.com/Sero113>
                  Github
         </a></li>
             <li>
-              <img src="images/Soundcloud-logo-Transparent-BlackPurple.png" alt="Soundcloud" height="15">
+              <img src="images/Soundcloud.png" alt="Soundcloud" height="15">
               <a href=https://soundcloud.com/user-70896041>
                 Soundcloud
               </a>
